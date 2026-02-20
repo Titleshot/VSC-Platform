@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Visa Checker | Best Consultancy Nepal | Visa Success Connect</title>
+  <meta name="description" content="Check your visa chances for USA, UK, Australia, Canada. Free tool from the best consultancy directory in Nepal. Connect with top education consultancies.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span class="topbar-item">Trusted visa guidance</span>
+      <span class="topbar-item">Verified consultancies</span>
+      <span class="topbar-item">Scholarship support</span>
+    </div>
+  </div>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><span class="navbar-brand-accent">VSC</span><span class="navbar-brand-full"> / Visa Success Connect</span></a>
+      <nav class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="visa-checker.html">Visa Checker</a>
+        <a href="consultancies.html">Consultancies</a>
+        <a href="blog.html">News</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="visa-checker.html" class="btn btn-primary btn-sm navbar-cta">Check Visa Chances</a>
+      </nav>
+      <button id="mobile-menu-toggle" class="navbar-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu-panel">
+      <button class="mobile-menu-close" aria-label="Close menu">×</button>
+      <nav class="mobile-menu-links">
+        <a href="index.html">Home</a>
+        <a href="visa-checker.html">Visa Checker</a>
+        <a href="consultancies.html">Consultancies</a>
+        <a href="blog.html">News</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="scholarship.html">Scholarship</a>
+      </nav>
+      <a href="visa-checker.html" class="btn btn-primary btn-block mobile-menu-cta">Check Visa Chances</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="page-header">
+          <h1>Visa Chance Checker</h1>
+          <p>Get an instant estimate of your visa chances. Free, confidential, under 2 minutes.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <form id="visa-checker-form">
+              <div class="form-group">
+                <label class="form-label" for="name">Full Name</label>
+                <input type="text" id="name" name="name" class="input" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" name="email" class="input" placeholder="you@example.com" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="country">Target Country</label>
+                <select id="country" name="country" class="select" required>
+                  <option value="USA">USA</option>
+                  <option value="UK">UK</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Korea">Korea</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Netherlands">Netherlands</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="level">Level</label>
+                <select id="level" name="level" class="select">
+                  <option value="Undergraduate">Undergraduate</option>
+                  <option value="Graduate">Graduate (Master's)</option>
+                  <option value="PhD">PhD</option>
+                  <option value="Diploma">Diploma</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="gpa">GPA (0–4 scale)</label>
+                <input type="number" id="gpa" name="gpa" class="input" placeholder="e.g. 3.2" min="0" max="4" step="0.1" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="englishTest">English Test Type</label>
+                <select id="englishTest" name="englishTest" class="select">
+                  <option value="TOEFL">TOEFL</option>
+                  <option value="IELTS">IELTS</option>
+                  <option value="PTE">PTE</option>
+                  <option value="Duolingo">Duolingo</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="englishScore">English Score</label>
+                <input type="number" id="englishScore" name="englishScore" class="input" placeholder="TOEFL: 0-120, IELTS: 0-9" min="0" max="120" step="0.5">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="gapYears">Gap Years (after last study)</label>
+                <input type="number" id="gapYears" name="gapYears" class="input" placeholder="0" min="0" max="20" value="0">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="finance">Finance Strength</label>
+                <select id="finance" name="finance" class="select">
+                  <option value="WEAK">Limited / Need scholarship</option>
+                  <option value="MODERATE">Moderate / Partial support</option>
+                  <option value="STRONG">Strong / Full funding ready</option>
+                  <option value="VERY STRONG">Very strong / Sponsored</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Check My Chances</button>
+            </form>
+          </div>
+
+          <aside class="sidebar-sticky">
+            <div class="card mb-4">
+              <h3 class="card-title">How scoring works</h3>
+              <p class="card-text mb-4">We use GPA, English scores, gap years, and finance strength. Your score (0–100) maps to a band:</p>
+              <ul class="checklist">
+                <li><strong>HIGH (70+)</strong> — Strong profile, good chances</li>
+                <li><strong>MODERATE (45–69)</strong> — Room for improvement</li>
+                <li><strong>LOW (&lt;45)</strong> — Focus on weak areas</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Privacy note</h3>
+              <p class="card-text">Your data is not stored. Results are computed locally.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-mission">Visa Success Connect exists to make visa guidance transparent, trustworthy, and accessible.</p>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-col-title">Main</div>
+          <a href="visa-checker.html">Visa Checker</a>
+          <a href="consultancies.html">Consultancies</a>
+          <a href="blog.html">News</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Resources</div>
+          <a href="scholarship.html">Scholarship</a>
+          <a href="partner.html">Partner with Us</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Legal</div>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Visa Success Connect. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/9779800000000" class="float-cta" aria-label="WhatsApp support" target="_blank" rel="noopener">💬</a>
+
+  <script src="app.js"></script>
+</body>
+</html>

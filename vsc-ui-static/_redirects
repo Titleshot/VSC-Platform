@@ -1,0 +1,14 @@
+# Clean URLs - serve .html files without extension
+/consultancies    /consultancies.html   200
+/visa-checker     /visa-checker.html    200
+/consultancy      /consultancy.html    200
+/blog             /blog.html           200
+/blog-post        /blog-post.html      200
+/about            /about.html           200
+/contact          /contact.html         200
+/partner          /partner.html         200
+/scholarship      /scholarship.html     200
+/faq              /faq.html             200
+/terms            /terms.html           200
+/privacy          /privacy.html         200
+/result           /result.html          200
